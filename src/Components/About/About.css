@@ -22,6 +22,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
 }
 
 .about-right {
@@ -46,4 +47,20 @@
 .about p {
     color: #676767;
     margin-bottom: 15px;
+}
+
+/* Media queries  */
+
+@media (max-width: 830px) {
+    .about {
+        flex-direction: column;
+    }
+    .about-left {
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+    .about-left {
+        flex-basis: 100%;
+    }
 }

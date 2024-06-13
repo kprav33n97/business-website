@@ -16,3 +16,14 @@
     border-radius: 10px;
 }
 
+/* Media queries  */
+
+@media (max-width: 850px) {
+    .gallery {
+        flex-wrap: wrap;
+    }
+    .gallery img {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}

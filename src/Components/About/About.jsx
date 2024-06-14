@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import aboutImg from  '../../assets/about.png'
+import aboutImg from  '../../assets/about.jpg'
 import playIcon from  '../../assets/play-icon.png'
 
 

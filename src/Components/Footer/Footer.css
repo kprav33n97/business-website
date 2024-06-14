@@ -11,6 +11,7 @@
     list-style: none;
     display: inline-block;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 /* Media  */

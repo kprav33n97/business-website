@@ -53,9 +53,10 @@
 
 .slide img {
     width: 65px;
+    height: 65px;
     border-radius: 50%;
     margin-right: 10px;
-    border: 4px solid linear-gradient(to right, #642b73, #c6426e);
+    border: 3px solid #c6426e;
 }
 
 .user-info {

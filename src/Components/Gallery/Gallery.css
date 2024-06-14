@@ -16,6 +16,8 @@
     border-radius: 10px;
     transition: all 0.3s;
     cursor: pointer;
+    max-height: 412px;
+    object-fit: cover;
 }
 
 .gallery img:hover {

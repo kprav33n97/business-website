@@ -14,6 +14,8 @@
 .about-img {
     width: 100%;
     border-radius: 10px;
+    max-height: 520px;
+    object-fit: cover;
 }
 
 .play-icon {

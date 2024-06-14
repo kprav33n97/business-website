@@ -1,9 +1,9 @@
 import React from 'react'
 import './Contact.css'
+import { FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoLocationSharp } from "react-icons/io5";
 import msgIcon from '../../assets/msg-icon.png'
-import mailIcon from '../../assets/mail-icon.png'
-import phoneIcon from '../../assets/phone-icon.png'
-import locationIcon from '../../assets/location-icon.png'
 import whiteArrow from '../../assets/white-arrow.png'
 
 const Contact = () => {
@@ -37,9 +37,9 @@ const Contact = () => {
         <h3>Send us a message <img src={msgIcon} alt="Message Icon" /></h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nulla veniam cum fugit, quo perspiciatis iste, quae minus voluptatem architecto corrupti magni tempora pariatur ea quisquam. Pariatur animi aliquid quos?</p>
         <ul>
-            <li><img src={mailIcon} alt="Mail Icon" />youremail@gmail.com</li>
-            <li><img src={phoneIcon} alt="Mail Icon" />+1 234 56987</li>
-            <li><img src={locationIcon} alt="Mail Icon" />California, United States</li>
+            <li className='message-links'><span><FaEnvelope /></span>yourmail@gmail.com</li>
+            <li className='message-links'><span><FaPhoneAlt /></span>+1 234 56987</li>
+            <li className='message-links'><span><IoLocationSharp /></span>California, United States</li>
         </ul>
       </div>
       <div className="contact-col">

@@ -32,7 +32,7 @@
 .about h3 {
     font-weight: 600;
     font-size: 16px;
-    color: #212EA0;
+    color: linear-gradient(to right, #642b73, #c6426e);
     text-transform: uppercase;
 }
 

@@ -81,6 +81,10 @@ svg {
   color: #642b73;
 }
 
+.message-links {
+  cursor: pointer;
+}
+
 /* Media query  */
 
 @media (max-width: 1200px) {

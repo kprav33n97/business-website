@@ -40,9 +40,3 @@
         width: 300px;
     }
 }
-
-@media (max-width: 500px) {
-    .hero {
-        min-height: 50vh;
-    }
-}

@@ -25,6 +25,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 5px;
 }
 
 .about-right {

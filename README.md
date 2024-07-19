@@ -1,1 +1,1 @@
-A modern business website created using React.js
+A modern business website created using React.js & Tailwind CSS

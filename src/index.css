@@ -19,8 +19,9 @@ a {
 }
 
 .container {
-  padding-left: 10%;
-  padding-right: 10%;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 15px;
 }
 
 .btn {
@@ -85,13 +86,14 @@ svg {
   cursor: pointer;
 }
 
+
+
 /* Media query  */
 
 @media (max-width: 1200px) {
-  .container {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
+  /* .container {
+    padding-inline: 5%;
+  } */
   .btn {
     padding: 14px 22px;
   }

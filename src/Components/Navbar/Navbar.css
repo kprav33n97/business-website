@@ -4,11 +4,13 @@ nav {
     padding: 4px 0;
     position: fixed;
     top: 0;
-    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 10;
+    max-width: 1440px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .logo {

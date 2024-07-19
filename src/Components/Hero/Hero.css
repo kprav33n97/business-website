@@ -14,6 +14,7 @@
 .hero-text {
     text-align: center;
     max-width: 800px;
+    padding-block: 80px;
 }
 
 .hero-text h1 {

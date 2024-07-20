@@ -48,6 +48,8 @@ nav ul li {
 @media (max-width: 958px) {
     nav {
         padding: 15px 0;
+        left: 0;
+        transform: none;
     }
 
     nav ul {

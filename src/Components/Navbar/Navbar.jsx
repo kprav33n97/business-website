@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.svg'
-import { Link } from 'react-scroll'
+// import { Link } from 'react-scroll'
 import menuIcon from '../../assets/menu-icon.png'
+import { Link } from 'react-scroll'
+import { Link as RouterLink } from "react-router-dom";
+
+
 
 const Navbar = () => {
   const [sticky, setSticky] = useState(false)
@@ -31,6 +35,12 @@ const Navbar = () => {
         <li><Link to='Gallery' smooth={true} offset={-260} duration={500}>Portfolio</Link></li>
         <li><Link to='testimonials' smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
         <li><Link className='btn' to='contact' smooth={true} offset={-260} duration={500}>Get a quote!</Link></li>
+       <li>
+  <RouterLink to="/login" className="btn">
+    Admin
+  </RouterLink>
+</li>
+
       </ul>
       <img src={menuIcon} alt="Menu icon" className='menu-icon' onClick={toggleMenu} />
     </nav>
